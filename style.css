@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(124, 47, 47);
+/*
+    height:20vh;
+*/
+
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header ul{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    list-style: none;
+    justify-content: center;
+    cursor:pointer;
+    }
+    header ul li{
+        padding: 5px 25px;
+        text-align: center;
+        border-color: violet ;
+        border-style:outset;
+        border-radius: 5px;
+    }
+header ul li:hover{
+    transition: .5s;
+    border-color: yellowgreen;
+    background-color: black;
+    text-shadow :5px 5px 5px chartreuse;
+    border-style: double;
+    border-radius: 50px;
+    
+}
+span img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 5px 5px 5px yellowgreen;
+    background: black;
+    color:white;
+}
+.containner{
+    display: flex;
+    height: 60vw;
+    width: 98.5vw;
+    object-fit: contain;
+    background:url(./img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-top: 5vh;
+    justify-content: center;
+    align-content: space-around;
+    margin: auto;
+    align-content: space-between;    
+
+}
+
+.imgs{
+    background-color: darkorange;
+    height: auto;
+    margin: 10px;  
+    transition:ease-in-out  
+}
+.imgs img{
+
+    padding:2px;
+    width: 20vw;
+    height: 400px;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.imgs img:hover{
+    transition: 2s;
+    width: 30vw;
+    height: 500px;
+    border-radius: 5%;
+    /*
+    background-color: rgb(119, 0, 255);
+    */
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+background-color: black;
+height: 80vh;
+}
+footer img{
+
+    display: inline-block;
+    width: 60vw;
+    height: 50vh;
+    object-fit: contain;
+    justify-items: center;
+    margin: auto;
+}
+footer ul{
+    display: flex;
+    justify-content: center;cursor: b;
+}
+footer ul li{
+    display: flex;
+    padding: 20px;
+}
+footer span img{
+    width: 30px;
+    height: 30px;
+    margin:0px 20px 50px 0px ;
+}
